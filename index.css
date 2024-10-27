@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(219, 121, 9);
+}
+
+header {
+    border: 6px solid rgb(233, 22, 7);
+    background-color: rgb(233, 22, 7);
+    border-radius: 25px;
+    height: 74px;
+}
+
+.header .cardapio,
+.header .pedido {
+    color: white; 
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .cardapio {
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.header .cardapio:hover {
+    background-color: rgb(214, 10, 10);
+}
+
+.header .pedido {
+    width: 150px;
+    margin-left: 200px;
+    margin-top: -53px;
+}
+
+.header .pedido:hover {
+    background-color: rgb(214, 10, 10);
+}
+
+.logo .comer {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.imagecomer img {
+    height: 200px;
+    border-radius: 30px;
+    margin-left: 40px;
+    transition: transform 0.3s; /* Suaviza a transformação */
+}
+
+.imagecomer img:hover {
+    transform: scale(1.1);
+}
+
+.formulario h3 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.formulario .nome, 
+.formulario .numero {
+    color: antiquewhite;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.formulario .nome input, 
+.formulario .numero input {
+    color: antiquewhite;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: chocolate;
+    cursor: pointer;
+    transition: transform 0.2s; /* Suaviza a transformação */
+}
+
+.formulario .nome label, 
+.formulario .numero label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.formulario .nome input[type="text"]:focus,
+.formulario .numero input[type="text"]:focus {
+    transform: scale(1.1);
+    outline: none;
+}
+
+.formulario .nome input[type="text"]:hover,
+.formulario .numero input[type="text"]:hover {
+    transform: scale(1.1);
+}
+
+#listaDeComida h4 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.pizza, 
+.hamburguer, 
+.salada {
+    margin-bottom: 10px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: chocolate;
+    color: antiquewhite;
+}
+
+input[type="checkbox"] {
+    width: 25px; /* Aumenta o tamanho do checkbox */
+    height: 25px; /* Aumenta o tamanho do checkbox */
+    transform: scale(1.0); /* Aumenta o tamanho visual do checkbox */
+    margin-right: 10px; /* Espaço entre o checkbox e o label */
+    border: none;
+}
+
+input[type="number"] {
+    width: auto; /* Para inputs de quantidade */
+}
+
+.Pizza label, 
+.hamburguer label, 
+.salada label {
+    text-align: center;
+    color: antiquewhite;
+}
+
+#listaDeComida .checkmark {
+    width: 25px; /* Tamanho do checkbox */
+    height: 25px;
+    border: 2px solid chocolate; /* Borda do checkbox */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px;
+    background-color: antiquewhite; /* Cor de fundo */
+    position: relative;
+}
+#enviar {
+    text-align: center; /* Centraliza o botão */
+    margin-top: 20px; /* Espaço acima do botão */
+}
+
+#enviar button {
+    background-color: rgb(233, 22, 7); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+}
+
+#enviar button:hover {
+    background-color: rgb(214, 10, 10); /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+#total {
+    text-align: center; 
+    margin: 20px 0;
+    color:antiquewhite; /* Mude para a cor desejada */
+    font-weight: bold; /* Para deixar o texto mais destacado */
+}
+a{
+    text-decoration: none;
+}
